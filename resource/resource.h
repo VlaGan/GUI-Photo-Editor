@@ -1,0 +1,83 @@
+﻿//{{NO_DEPENDENCIES}}
+// Включаемый файл, созданный в Microsoft Visual C++.
+// Используется GUI Photo Editor.rc
+
+
+/*
+enum Commands{
+	ID_FILECHOOSE_DIR = 110, 
+	ID_FILECHOOSE_DIR_BOX = 111,
+	ID_SAVE_FILE = 112,
+	ID_SAVE_FILE_AS = 113,
+	eCommandsMax
+};*/
+
+#define IDS_APP_TITLE			103
+
+#define IDR_MAINFRAME			128
+#define IDD_GUIPHOTOEDITOR_DIALOG	102
+#define IDD_ABOUTBOX			103
+#define IDM_ABOUT				104
+#define IDM_EXIT				105
+#define IDI_GUIPHOTOEDITOR			107
+#define IDI_SMALL				108
+#define IDC_GUIPHOTOEDITOR			109
+
+
+//#define ID_FILECHOOSE_DIR 110
+//#define ID_FILECHOOSE_DIR_BOX 111
+
+#define ID_FILECHOOSE_DIR 110
+#define IDD_FILECHOOSE_DIR  111
+#define ID_SAVE_FILE 112
+#define ID_SAVE_FILE_AS  113
+
+#define ID_CLEAR_FOTO 114
+#define ID_UNDO 115
+#define ID_REDO 116
+
+
+#define ID_IMAGEMOD_BRIGHNESS 117
+#define ID_IMAGEMOD_GAUSSBLUR 118
+#define IDD_CHOOSE_GAUSSIAN_BLUR 119
+#define ID_IMAGEMOD_ROTATION 120
+#define IDD_CHOOSE_ROTATION 121
+
+#define ID_IMAGEMOD_ERODE 122
+#define IDD_CHOOSE_ERODE 123
+#define ID_IMAGEMOD_GRAYSCALE 124
+
+#define ID_TOOLTIP_LOAD 150
+#define ID_TOOLTIP_UNDO 151
+#define ID_TOOLTIP_REDO 152
+#define ID_TOOLBAR 153
+
+#define IDD_CHOOSE_BR 154
+
+#define IDC_SCROLLBARV 155
+#define ID_TOOLTIP_SAVE 156
+#define ID_TOOLTIP_DELETE 157
+
+#define IDC_CONTRAST 158
+
+
+#define IDC_TASKBAR_BLUR 159
+
+
+
+#define IDC_MYICON				2
+#ifndef IDC_STATIC
+#define IDC_STATIC				-1
+#endif
+// Следующие стандартные значения для новых объектов
+//
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+
+#define _APS_NO_MFC					130
+#define _APS_NEXT_RESOURCE_VALUE	129
+#define _APS_NEXT_COMMAND_VALUE		32771
+#define _APS_NEXT_CONTROL_VALUE		1000
+#define _APS_NEXT_SYMED_VALUE		110
+#endif
+#endif
